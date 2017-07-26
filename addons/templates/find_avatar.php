@@ -1,4 +1,11 @@
 <?php
+/**
+ * Use like:
+ * <perch:blog id="commentURL" type="url" filter="find_avatar" avatarsize="64" />
+ * 
+ * Uses Cloudinary. Define your cloud name with:
+ * define('CLOUDINARY_NAME', 'your-name');
+ */
 
 class PerchTemplateFilter_find_avatar extends PerchTemplateFilter 
 {
